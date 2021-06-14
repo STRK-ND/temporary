@@ -3,7 +3,7 @@ repo init --depth=1 --no-repo-verify -u https://github.com/Spark-Rom/manifest -b
 git clone  --depth 1 https://github.com/flashokiller/mainfest_personal -b master .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
-# build rom:)...............
+# build rom:)................
 . build/envsetup.sh
 lunch spark_ysl-userdebug
 make spark
